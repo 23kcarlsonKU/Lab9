@@ -1,0 +1,32 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="formChecker.js"></script>
+</head>
+<body>
+<h1>Store!</h1>
+<form action="customerBackend.php" method="post" onsubmit="return validate()">
+ Username: <input type="text" name="name"><br>
+ Password: <input type="password" name="password"><br>
+ <h3>Engage in capitalism!</h3>
+ <p>Enter Quantity:</p>
+ <p>Small Empty Box ($10)</p>
+ <input type="number" id="small" name="small" value="0">
+ <p>Medium Empty Box ($15)</p>
+ <input type="number" id="med" name="med" value="0">
+ <p>Large Empty Box ($20)</p>
+ <input type="number" id="large" name="large" value="0">
+
+ <h3>Shipping Options:</h3>
+  <input type="radio" id="free" name="shipping" value="free">
+ <label for="free">Free 7 day</label>
+ <input type="radio" id="overnight" name="shipping" value="overnight">
+ <label for="overnight">$50.00 over night</label>
+ <input type="radio" id="threeday" name="shipping" value="threeday">
+ <label for="threeday">$5.00 three day</label>
+ <br>
+ <input type="submit">
+ <input type="reset">
+ </form>
+ </body>
+</html>

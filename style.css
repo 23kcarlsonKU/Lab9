@@ -1,0 +1,15 @@
+ table,th,td{
+	 border: 1px solid black;
+ }
+ table { 
+	border-collapse: collapse;
+ }
+ th{
+	 background-color:#4c6ba8;
+	 padding: 10px;
+ }
+ td{
+	 background-color:#4ca85d;
+	 padding: 10px;
+ }
+ 
